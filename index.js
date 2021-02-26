@@ -9,5 +9,5 @@ let url = "https://dog.ceo/api/breed/otterhound/images/random";
 
 axios.get(url)
     .then( function(response) {
-        console.log(response);
+        console.log(response.data.message);
     })
