@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: moccasin;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
