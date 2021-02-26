@@ -3,3 +3,11 @@
 
 // log the url to the console. make a Github respository to store this code
 
+let axios = require('axios');
+
+let url = "https://dog.ceo/api/breed/otterhound/images/random";
+
+axios.get(url)
+    .then( function(response) {
+        console.log(response);
+    })
